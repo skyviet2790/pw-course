@@ -1,0 +1,4 @@
+Trả lời câu #1
+git.init => khởi tạo git
+git.add <file_name> => đưa file vào vùng staging area (vùng chuẩn bị commit)
+git. commmit -m "" => thực hiện commit file

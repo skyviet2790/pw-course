@@ -1,0 +1,7 @@
+for (let i = 0; i <= 100; i++) {
+    if (i % 2 === 1) {
+        console.log("Số " + i + " là số lẻ");
+    } else if (i % 2 === 0){
+        console.log("Số " + i + " là số chẵn");
+    }
+}
