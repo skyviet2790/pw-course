@@ -6,7 +6,7 @@ test('has title', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);*/
   await page.goto('https://material.playwrightvn.com/');
-  await expect(page).toHaveTitle('Tài liệu học automation test');
+  await expect(page).toHaveTitle('Tài liệu học automation test - Playwright Việt Nam');
   
  
 });
