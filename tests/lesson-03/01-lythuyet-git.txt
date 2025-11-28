@@ -1,0 +1,4 @@
+git commit --amend: mở text editor để thay đổi message commit cho commit gần nhất
+git commit --ament -m"<message>" : thay đổi message commit của commit gần nhất
+git restore --staged <file> : move file đã add tại vùng staging sang vùng working directory
+git reset HEAD~1: roleback commit, tất cả file đã commit sẽ quay lại vùng working directory

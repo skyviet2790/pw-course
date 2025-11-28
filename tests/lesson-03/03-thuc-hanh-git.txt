@@ -1,0 +1,27 @@
+Pre: Thêm file .gitignore và thêm 2 dòng
+file1.txt
+oops/
+
+a: Tạo 3 file: file1.txt, file2.txt, .gitignore, oops/file3.txt
+- Local: file1.txt, file2.txt, .gitignore, oops/file3.txt
+- Working Directory:
+- Staging:
+- Repository:
+
+b: Khởi chạy git. Chạy lệnh: git.init
+- Local: 
+- Working Directory: file1.txt, file2.txt, .gitignore, oops/file3.txt
+- Staging:
+- Repository:
+
+c:Add file vào staging. Chạy lệnh: git add .
+- Local
+- Working Directory: .gitignore, oops/file3.txt
+- Staging: file1.txt, file2.txt
+- Repository
+
+d: Commit file. Chạy lệnh git commit -m "Init Project"
+- Local
+- Working Directory: file2.txt, oops/file3.txt
+- Staging:
+- Repository: file1.txt, file2.txt
