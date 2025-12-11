@@ -7,8 +7,8 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);*/
   await page.goto('https://material.playwrightvn.com/');
   await expect(page).toHaveTitle('Tài liệu học automation test - Playwright Việt Nam');
-  
- 
+
+
 });
 test('get started link', async ({ page }) => {
   await page.goto('https://material.playwrightvn.com/');
